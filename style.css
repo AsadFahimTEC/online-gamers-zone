@@ -302,11 +302,15 @@ font-weight: 400;
 
 /* play people section finish */
 
-/* games info section finish */
+/* games info section start */
 
-.games-info2{
+.games-info2:hover{
   display: grid;
   grid-template-columns: auto;
+  border-radius: 20px;
+  border: 2px solid #FF42A5;
+  color: #FF42A5;
+  padding: 5px;
 }
 
 .image-content{
@@ -316,10 +320,23 @@ font-weight: 400;
     border-radius: 2px solid red;
 }
 
-.image-content:hover{
-    border-radius: 20px;
-    border: 2px solid #FF42A5;
+/* games info section finish */
 
+/* footer section start */
+
+.footer{
+    background-color: #0B0223;
+    max-width: 1900px;
+    min-height: 100px;
+}
+
+.footer-logo{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.footer-logo img{
+    width: 10%;
 }
   
  
