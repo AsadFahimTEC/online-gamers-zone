@@ -247,6 +247,7 @@ font-weight: 500;
 .play-people-container{
     background: #FFF;
     text-align: left;
+    margin-left: 60px;
 }
 
 .play-people-container .play2{
@@ -271,7 +272,55 @@ font-size: 18px;
 font-weight: 400;
 }
 
+.play-people-image{
+    display: flex;
+    border-radius: 8px;
+    margin-right: -600px;
+    margin-top: 20px;
+}
 
+.play-people-image img{
+    width: 25%;
+}
+
+.play-people-image2{
+    margin-top: -250px;
+    margin-right: -1200px;
+    margin-left: 400px;
+    margin-bottom: -300px;
+}
+
+.play-people-image2 img{
+    width: 12%;
+}
+
+.people-info{
+    text-align: center;
+    margin-right: -490px;
+    margin-bottom: -200px;
+}
+
+/* play people section finish */
+
+/* games info section finish */
+
+.games-info2{
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.image-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2px solid red;
+}
+
+.image-content:hover{
+    border-radius: 20px;
+    border: 2px solid #FF42A5;
+
+}
   
  
 

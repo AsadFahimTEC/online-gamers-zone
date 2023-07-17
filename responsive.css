@@ -40,6 +40,9 @@
         font-size: 35px;
     }
 
+    .image-content{
+        flex-wrap: wrap;
+     }
 }
 
 /* for medium mobile devices and tablets */
@@ -79,4 +82,7 @@
         flex-direction: column;
     }
 
+    .image-content{
+        flex-wrap: wrap;
+     }
 }
