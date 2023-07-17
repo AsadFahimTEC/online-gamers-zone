@@ -211,9 +211,26 @@ margin: 20px 0;
     width: 50%;
 }
 
+.games-icon h3{
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
 .games-icon img{
     width: 100%;
     margin: 20px 0;
+}
+
+.games-icon:hover{
+    position: relative;
+    transition: 3s ease-in-out;
+    background-color: black;
+    box-shadow: black;
 }
 
 .games-icon p{
@@ -224,3 +241,37 @@ font-weight: 500;
 }
 
 /*  online games video section finish */
+
+/* play people section */
+
+.play-people-container{
+    background: #FFF;
+    text-align: left;
+}
+
+.play-people-container .play2{
+font-size: 48px;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.play-people-container .play3{
+color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+}
+
+.play-people-container .play4{
+color: #534C64;
+font-size: 18px;
+font-weight: 400;
+}
+
+
+  
+ 
+
