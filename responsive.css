@@ -28,7 +28,7 @@
 
     .banner-info, .banner-image{
         width: 100%;
-        margin-top: 20px;
+        margin-top: 20px 0; 
 
     }
 
@@ -41,7 +41,10 @@
     }
 
     .image-content{
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 40px;
+        margin-bottom: 40px;
      }
 
      .socials-link{
@@ -60,6 +63,45 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
      }
+
+     .play-instantly-content
+     {
+         max-width: 100%;
+         text-align: center;
+     }
+
+     .play-instantly-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .play-people-image{
+        max-width: calc(100% - 100px);
+        margin-left: 80px;
+    }
+
+    .play-instantly-content{
+        display: block;
+        text-align: center; 
+        width: auto; 
+        margin-top: 0px; 
+        margin: 0 auto;
+    }
+
+    .play-instantly-content .play-text{
+        text-align: center;
+
+    }
+
+    .play-instantly-content .play4{
+        margin: 10px 0;
+    }
+
+    .play-people-image2 {
+        max-width: 200px;
+        top: -150px;
+        left: -54px;
+    }
 }
 
 /* for medium mobile devices and tablets */
@@ -100,7 +142,10 @@
     }
 
     .image-content{
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 40px;
+        margin-bottom: 40px;
      }
 
      .socials-link{
@@ -119,4 +164,43 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
      }
+
+     .play-instantly-content
+     {
+         max-width: 100%;
+         text-align: center;
+     }
+
+     .play-instantly-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .play-people-image{
+        max-width: calc(100% - 100px);
+        margin-left: 80px;
+    }
+
+    .play-instantly-content{
+        display: block;
+        text-align: center; 
+        width: auto; 
+        margin-top: 0px; 
+        margin: 0 auto;
+    }
+
+    .play-instantly-content .play-text{
+        text-align: center;
+
+    }
+
+    .play-instantly-content .play4{
+        margin: 10px 0;
+    }
+
+    .play-people-image2 {
+        max-width: 200px;
+        top: -150px;
+        left: -54px;
+    }
 }
