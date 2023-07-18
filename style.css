@@ -360,6 +360,7 @@ font-weight: 400;
 .footer-logo{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 .footer-container .footer-logo{
     justify-content: center;
