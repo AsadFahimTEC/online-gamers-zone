@@ -244,7 +244,7 @@ font-weight: 500;
 
 /* play people section */
 
-.play-people-container{
+.play-instantly-container{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -252,64 +252,67 @@ font-weight: 500;
     width: 100%;
 }
 
-.people-info{
-    text-align: right;
-    width:45%;
+.play-instantly-content{
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    gap: 150px;
+    justify-self: flex-end;
+    text-align: right;
+    width: 45%;
+    margin: 50px 0;
+    gap: 25px;
 }
 
-.play-people-container .play2{
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-display: block;
+.play-instantly-content .play-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    text-align: right;
+    font-size: 28px;
+    font-weight: 700;
 }
 
-.play-people-container .play3{
+.play-instantly-content .play-text2{
 color: #0B0223;
-font-size: 48px;
+font-size: 28px;
 font-weight: 700;
-line-height: 60px;
+text-align: right;
 }
 
-.play-people-container .play4{
+.play-instantly-content .play-text3{
+    color: #0B0223;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: right;
+    }
+
+.play-instantly-content .play4{
 color: #534C64;
-font-size: 18px;
+text-align: right;
+font-size: 15px;
 font-weight: 400;
 }
 
-.play-people-image{
-    display: flex;
-    border-radius: 8px;
-    margin-right: -600px;
-    margin-top: 20px;
+.play-instantly-content p{
+    width: 330px;
+    margin-left: auto;
 }
 
-.play-people-image img{
-    width: 25%;
+.play-people-image{
+    max-width: 50%;
+}
+
+.play-people-image > img{
+    width: 100%;
 }
 
 .play-people-image2{
-    margin-top: -250px;
-    margin-right: -1200px;
-    margin-left: 400px;
-    margin-bottom: -300px;
+    width: 5%;
+    position: relative;
+    left: -700px;
+    bottom: -150px;
 }
-
-.play-people-image2 img{
-    width: 12%;
-}
-
-.people-info{
-    text-align: center;
-    margin-right: -490px;
-    margin-bottom: -200px;
-}
-
 /* play people section finish */
 
 /* games info section start */
@@ -401,7 +404,7 @@ font-weight: 400;
 }
 
 .social-link a:hover .fa-twitter{
-    color: #1F9BEB;
+    color: #00acee;
     background-color: #FFF;
     border-radius: 10px;
 }
