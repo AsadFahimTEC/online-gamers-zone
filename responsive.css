@@ -4,6 +4,12 @@
         flex-direction: column;
     }
 
+    .logo-container{
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
     .nav-container h1{
         text-align: center;
     }
