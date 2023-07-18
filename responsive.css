@@ -10,6 +10,7 @@
 
     .navbar-item-list{
         flex-direction: column;
+
     }
     
     .navbar-item-list a{
@@ -43,7 +44,22 @@
         flex-wrap: wrap;
      }
 
+     .socials-link{
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+     }
 
+     .footer-container >ul{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+     }
+
+     .our-policy{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     }
 }
 
 /* for medium mobile devices and tablets */
@@ -85,5 +101,22 @@
 
     .image-content{
         flex-wrap: wrap;
+     }
+
+     .socials-link{
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+     }
+
+     .footer-container >ul{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+     }
+
+     .our-policy{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
      }
 }
