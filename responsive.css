@@ -6,7 +6,6 @@
 
     .nav-container h1{
         text-align: center;
-
     }
 
     .navbar-item-list{
@@ -19,7 +18,7 @@
 
     .logo-container{
         width: 100%;
-        margin-top: 20px;
+        margin-top: 20px 0;
     }
 
     .banner-container{
@@ -43,6 +42,8 @@
     .image-content{
         flex-wrap: wrap;
      }
+
+
 }
 
 /* for medium mobile devices and tablets */
