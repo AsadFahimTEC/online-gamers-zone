@@ -35,8 +35,13 @@
     }
 
     .games-banner{
-        flex-direction: column;
+       grid-template-columns: 1fr;
     }
+
+    .container{
+        padding: 0 20px;
+    }
+
 
     .games-info .funny{
         font-size: 35px;
@@ -140,8 +145,13 @@
         margin-top: 20px;
     }
 
+    .container{
+        padding: 0 50px;
+    }
+
     .games-banner{
-        flex-direction: column;
+        grid-template-columns: 1fr;
+
     }
 
     .image-content{

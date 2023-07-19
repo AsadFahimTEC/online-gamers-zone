@@ -174,77 +174,76 @@ text-transform: uppercase;
 /* online games video section start */
 
 .games-video-section{
-    background: #FFF;
-    margin: 20px 0;
+    width: 100%;
+    margin: 100px 0px;
 }
 
-.games-info{
-    margin: 20px 0;
+.games-info-inner{
+    width: 100%;
+    text-align: center;
 }
 
-.games-info h3{
-color: #0B0223;
-text-align: center;
-font-size: 48px;
-font-weight: 700;
-}
-
-.games-info .funny{
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-size: 48px;
-font-weight: 700;
-}
-
-.games-info p{
-color: #534C64;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-margin: 20px 0;
+.games-info-inner >p{
+    margin: 10px auto 50px;
 }
 
 .games-banner{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
 }
 
 .games-icon{
-    width: 50%;
-}
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 10px;
 
-.games-icon h3{
-text-align: center;
-font-size: 20px;
-font-weight: 600;
-background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
 }
 
 .games-icon img{
     width: 100%;
-    margin: 20px 0;
+    display: block;
 }
 
-.games-icon:hover{
-    position: relative;
-    transition: 0.3s ease;
-    background-color: black;
+.games-icon .watch-now{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: #FFF;
     cursor: pointer;
+    opacity: 0;
+    transition: 0.2s ease;
+    transform: translate(100px);
 }
 
-.games-icon p{
-color: #534C64;
-font-family: Work Sans;
-font-size: 20px;
-font-weight: 500;
+.watch-now p{
+    font-size: 1.15rem;
+    margin-top: 10px;
+    color: #FF42A5;
+    font-weight: 700;
+}
+
+.watch-now i{
+    font-size: 2rem;
+}
+
+.games-icon:hover .watch-now{
+    opacity: 1;
+    transform: translate(0px);
+}
+
+.games >p{
+    text-align: left;
 }
 
 /*  online games video section finish */
